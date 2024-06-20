@@ -12,7 +12,7 @@ const Xpagination = () => {
       console.log(data);
       setApidata(data);
     } catch (err) {
-      alert("the apidata not loaded ");
+      alert("failed to fetch data");
     }
   };
   useEffect(() => {
