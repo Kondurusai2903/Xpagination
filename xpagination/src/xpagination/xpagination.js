@@ -12,7 +12,7 @@ const Xpagination = () => {
       console.log(data);
       setApidata(data);
     } catch (err) {
-      console.log(err);
+      alert(err);
     }
   };
   useEffect(() => {
